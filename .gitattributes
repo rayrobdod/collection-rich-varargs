@@ -1,0 +1,9 @@
+*.md	text	diff=markdown	filter=remove_trailing_whitespace
+*.properties	text	filter=remove_trailing_whitespace
+*.sbt	text	filter=remove_trailing_whitespace
+*.scala	text	diff=scala	filter=remove_trailing_whitespace
+*.yml	text	diff=yaml	filter=remove_trailing_whitespace
+/.gitattributes	text	filter=sort
+/.gitignore	text	filter=sort
+/.sbtopts	text	filter=sort
+/project/plugins.sbt	text	filter=sort
